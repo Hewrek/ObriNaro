@@ -1,0 +1,108 @@
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/im/4.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.registro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registro-form {
+    width: 40%;
+    margin-right: 20%;
+    background-color: #aaffaa;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.registro-form h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50; 
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.no-cuenta {
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+/* Media Queries para tamaños de pantalla más pequeños */
+
+@media only screen and (max-width: 768px) {
+    .registro-form {
+        width: 60%;
+        margin-right: 10%;
+        padding: 30px;
+    }
+
+    .input-group input {
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .registro-form {
+        width: 80%;
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    .input-group input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}

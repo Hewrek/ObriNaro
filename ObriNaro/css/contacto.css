@@ -1,0 +1,39 @@
+.formularios-container {
+    background-color: var(--clr-white);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+
+.formularios-container h2 {
+    margin-bottom: 1.5rem;
+    color: var(--clr-main);
+}
+
+table {
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+    font-family: 'Rubik', sans-serif; /* Usa la fuente Rubik */
+}
+
+th, td {
+    padding: 1rem; /* Espacio alrededor del contenido de las celdas */
+    text-align: left; /* Alinea el texto a la izquierda */
+    border-bottom: 1px solid var(--clr-gray); /* Borde inferior para separación */
+}
+
+th {
+    background-color: var(--clr-main); /* Fondo azul para encabezados */
+    color: var(--clr-white); /* Texto blanco para contraste */
+}
+
+tbody tr:last-child td {
+    border-bottom: none; /* Elimina el borde inferior de la última fila */
+}
+
+/* Estilo para el hover sobre una fila */
+tbody tr:hover {
+    background-color: var(--clr-main-light); /* Cambia el fondo al pasar el mouse */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
